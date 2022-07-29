@@ -1,0 +1,74 @@
+.load_more{
+  position: fixed;
+    z-index: 1;
+    bottom: 10px;
+    right: 45%;
+    padding: 10px 20px;
+    background: teal;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.img_grid{
+  min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+.card{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  margin: 20px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 300px;
+  max-width: 300px;
+}
+
+.card_title{
+   font-size: 15px;
+   text-align: center;
+   padding:  2px;
+   font-weight: 500;
+}
+
+.card_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.card_row button{
+  margin: 0 5px 5px 5px;
+  padding: 5px 10px;
+  background: lightblue;
+  border: 1px blue solid;
+  border-radius: 5px;
+  color: black;
+}
+
+.card_row button:hover{
+  background: blue;
+  color: white;
+}
+
+
+
+.img{
+  width: 100%;
+  height: 70%;
+}
+
+.like_button{
+  margin: 0 5px 5px 5px;
+  padding: 5px 10px;
+  background: blue;
+  border: 1px lightblue solid;
+  border-radius: 5px;
+  color: white;
+}
+
